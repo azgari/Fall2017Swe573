@@ -9,7 +9,7 @@
 ### Issue Management
 
 *Issue Repository is used for monitoring research, tasks and document the processes foranalyzing performance 
-and having beneficial sources for further projects. Follwing abels will be used for issues:*
+and having beneficial sources for further projects. Follwing labels will be used for issues:*
 
 + Decision
 
