@@ -1,6 +1,10 @@
 # Fall2017Swe573
 
-### SWE 573 Project
+## SWE 573 Project
+
+### Scope of the Project
+
++ Project will be about an application for movie archive. Movies should be able to listed in archive with images, director & actor info, user ratings and watched / unwatched flag. Additional notes can be added for target movie. Resoulution quality (Full HD, HD Ready, Ultra HD etc...) and type of data (BluRay, mkv file, avi file, DVD etc...
 
 ### Time Tracking
 
@@ -16,3 +20,5 @@ and having beneficial sources for further projects. Follwing labels will be used
 + Research
 
 + Documentation
+
++ Requirement
