@@ -21,6 +21,8 @@ and having beneficial sources for further projects. Follwing labels will be used
 
 + Documentation
 
++ Design
+
 + Requirement
 
 + Frontend
