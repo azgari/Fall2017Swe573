@@ -1,0 +1,16 @@
+
+<div ng-show="saveStatus == false">
+	<div><input type="text" ng-model="title" placeholder="Enter movie title"></input></br></div>
+	<div><button ng-click="loadBookFromMovieApi()">Search</button></div>
+	<div><input type="text" ng-model="year" placeholder="Enter year"></input></br></div>
+	<div><input type="text" ng-model="runtime" placeholder="Enter runtime"></input></br></div>
+	<div><input type="text" ng-model="genre" placeholder="Enter genre"></input></br></div>
+	<div><input type="text" ng-model="director" placeholder="Enter director"></input></br></div>
+	<div><input type="text" ng-model="actors" placeholder="Enter actors"></input></br></div>
+	<div><input type="text" ng-model="imdbRating" placeholder="Enter imdbRating"></input></br></div>
+	<div><textarea rows="4" cols="50" type="text" ng-model="plot" placeholder="plot"></textarea> </br></div>
+	<div><button ng-click="insertMovie()">Save</button></div>
+</div>
+<div ng-show="saveStatus == true">
+	<p>Film kaydetme işlemi başarılı!</p>
+</div>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: pmdb
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: NedimAzgari
+Implementation-Vendor-Id: pmdb
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

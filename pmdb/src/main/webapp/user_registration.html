@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+	<body ng-app="PMDBApp" ng-controller="RegistrationCtrl">
+	
+		<div ng-show="registrationStatus == false">
+			<div><input type="text" id="firstName" ng-model="firstName" placeholder="Enter your name..."></input></br></div>
+			<div><input type="text" id="lastName" ng-model="lastName" placeholder="Enter your lastname"></input></br></div>
+			<div><input type="text" id="userName" ng-model="userName" placeholder="Enter user name..."></input></br></div>
+			<div><input type="text" id="phone" ng-model="phone" placeholder="Enter your phone number..."></input></br></div>
+			<div><input type="text" id="inputEmail" ng-model="email" placeholder="Email address gir"></input> </br></div>
+			<div><input type="password" id="inputPassword" ng-model="password" placeholder="Password" /></input></br></div>
+			<div><input type="text" ng-model="deneme"></div>
+			<div><button ng-click="registerUser()">Sign up</button></div>
+		</div>
+		<div ng-show="registrationStatus == true">
+			<p>Üyelik açma işlemi başarılı!</p>
+		</div>
+		
+		
+		<script src="js/angular.js"></script>
+		<script src="js/angular-route.js"></script>
+		<script src="js/registration.js"></script>
+		
+	</body>
+</html>

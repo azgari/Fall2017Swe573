@@ -1,0 +1,17 @@
+
+
+<div><span><button ng-click="searchInIMDB()">Imdb'de Ara</button></span></div>
+
+<h2>Hosgeldiniz, Sayin {{loggedUser.firstName}} {{loggedUser.lastName}}</h2>
+
+<p>Film Listeniz</p>
+
+   <div ng-repeat="userMovie in loggedUser.userMovies">
+	<div>
+    	<p>{{userMovie.movie.title}}</p>
+    	<p>{{userMovie.movie.year}}</p>
+    	<p>{{userMovie.movie.director}}</p>
+    	<p>{{userMovie.movie.imdbRating}}</p>
+    	<p>------------------------------------------------------</p>
+	</div>    
+</div> 
